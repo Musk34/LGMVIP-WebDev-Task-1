@@ -1,0 +1,665 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    z-index: 0;
+    box-sizing: border-box;
+}
+
+
+/* First Section */
+
+
+.Header{
+    background: url('../img/a66fc260b90be24e227ab5f141ae5842.png');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 900px;
+}
+
+.HeadTag{
+    position: absolute;
+    z-index: 2;
+    left: 20px;
+    top: 20px;
+}
+
+.HeadTag ul{
+    padding: 30px 16px;
+    margin: auto 40px;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+.CompName{
+    padding: 10px 200px;
+    margin: 5px;
+    font-size: 3em;
+    font-weight: 1000;
+    color: #eceff1;
+    text-shadow: 5px 1px 0px #121111;
+}
+
+.HeadElem{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+    margin: 12px;
+}
+
+.HeadElem a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #eceff1;
+    font-size: large;
+    text-shadow: 3px 2px 1px #121111;
+}
+
+.HeadElem a:hover{
+    color: rgb(13, 226, 77);
+    text-decoration: none;
+}
+
+.Line{
+    position: absolute;
+    z-index: 2;
+    left: 315px;
+    top: 145px;
+
+}
+
+.FirstLine{
+    margin: 5px;
+    padding: 5px;
+    font-size: 3em;
+    font-weight: 400;
+    color: white;
+}
+
+.SecondLine{
+    margin: 5px;
+    padding: 5px;
+    font-size: 1.5em;
+    font-weight: 50;
+    color: rgb(247, 240, 245);
+}
+
+.Buttons{
+    margin: 0px;
+    padding: 8px;
+    font-size: 3em;
+    font-weight: bolder;
+    border: 10px;
+}
+
+.FirstButton{
+    padding: 12px 17px;
+    margin: -3px;
+    border-radius: 4px;
+    border: rgb(255, 209, 5);
+    text-transform: uppercase;
+    font-size: 0.3em;
+    font-weight: 700;
+    background-color: #90a4ae;
+    cursor: pointer;
+    color: rgb(7, 7, 7);
+}
+
+.FirstButton:hover{
+    border: rgb(157, 177, 93);
+    background-color: rgb(157, 177, 93);
+}
+
+
+/* Second Section */
+
+
+.WelcomeNote{
+    text-align-last: center;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.Note{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    padding: 8px 50px;
+    align-items: center;
+    margin-left: 80px;
+    padding-left: 100px;
+}
+
+.Note p{
+    font-size: 1.5em;
+    color: rgb(15, 14, 13);
+    font-family: cursive;
+}
+
+.Umbrella{
+    height: 16%;
+    width: 22%;
+    margin: 0PX 23PX;
+    padding: 0px 33px;
+}
+
+.ThreeCart{
+    display: flex;
+    justify-content: center;
+}
+
+/*.icon{
+    background: rgb(27, 29, 27);
+    padding: 17px;}*/
+
+.Carts{
+    display: flex;
+    margin: 8px 11px;
+    padding: 7px 9px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CartText{
+    color: #747c81;
+   font-size: 20px;
+}
+
+.Heading{
+    text-transform: uppercase;
+    font-size: 1.4em;
+    color: rgb(12 11 12);
+}
+
+.CartButtons{
+    margin: 22px;
+    padding: 13px 32px;
+    background-color: #6f7b81;
+    border-color: rgb(12 12 12);
+}
+
+
+.CartButtons:hover{
+    margin: 22px;
+    padding: 13px 32px;
+    background-color: rgb(126, 98, 119);;
+    border-color: rgb(126, 0, 199);
+}
+
+.CartEnd{
+    width: 54%;
+    color: rgb(12, 10, 10);
+    height: 3px;
+    background-color: rgb(141,141,141);
+}
+
+
+/* Third Section */
+
+
+.Projects p{
+    text-align: center;
+}
+
+.ProjectNote{
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.ProjectCart{
+    display: flex;
+    justify-content: center;
+}
+
+.Box1{
+    background-color: rgb(95, 105,110);
+}
+
+.Box2{
+    background-color: rgb(182, 212, 227);
+}
+
+.Box1:hover, .Box2:hover{
+    background-color: rgb(219, 212, 151);
+}
+
+.ProjectCartItem img{
+    position: initial;
+    height: 115%;
+    width: 100%;;
+}
+
+.ProjectName{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.ProjectButtons{
+    padding: 10px;
+    text-transform: uppercase;
+    margin: 10px 43px;
+    border-color: rgb(15, 15, 15);
+    background-color: rgb(217, 193, 153);
+    font-family: cursive;
+}
+
+.ProjectDetails{
+    color: rgb(141,141,141);
+}
+
+.ProjectButtons:hover{
+    background-color: rgb(231, 118,83);
+    border-color: rgb(13, 13, 14);
+}
+
+
+/* Fourth Section */
+
+
+.PricingNote{
+    padding: 10px;
+    font-size: 3em;
+    font-weight: 800;
+    text-align: center;
+}
+
+.TableHeading{
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.TableType{
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 560;
+    color: rgb(141, 141, 141);
+}
+
+.TableData{
+    font-size: 0.8em;
+}
+
+.SeperateTable{
+    margin: 10px 20px;
+    text-align: center;
+}
+
+.PricingTable{
+    display: flex;
+    justify-content: center;
+}
+
+.PricingContent{
+    text-align: center;
+    padding: 0px 30px;
+    margin: 5px 10px;
+}
+
+.TableButton{
+    font-weight: 560;
+    padding: 11px 41px;
+    text-transform: uppercase;
+    background-color: #607d8b;
+    border-color: #ffeb3b;
+}
+
+.TableButton:hover{
+    background-color: rgb(126, 0, 199);
+    border-color: rgb(126, 0, 199);
+}
+
+
+/* Fifth Section */
+
+
+.VideoProjectBox{
+    background-color: #99c594a1;;
+
+}
+
+.VideoProjectTittle{
+    margin: 40px;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 800;
+    padding-top: 15px;
+    color: rgb(15, 14, 14);
+}
+
+.VideoProject{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+
+.ProjectVideo{
+    margin: 27px 4px;
+    padding: 20px 5px;
+}
+
+
+/* Sixth Section */
+
+
+.TeamTitle{
+    text-align: center;
+    font-size: 3em;
+    font-weight: 800;
+    padding: 10px;
+}
+
+.RowList{
+    display: flex;
+    justify-content: center;
+}
+
+.RowPerson{
+    text-align: center;
+    padding: 7px 5px;
+    margin: 7px 5px;
+}
+
+
+.PersonImg{
+    border-radius: 50%;
+    width: 40%;
+}   
+
+.PersonProfile:hover .PersonImg{
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.PersonProfile:hover .PersonSocial{
+    opacity: 1;
+}
+
+.PersonName{
+    font-size: 1em;
+    font-weight: 750;
+    text-transform: uppercase;
+}
+
+.PersonJob{
+    font-size: 1em;
+    color: rgb(141, 141, 141);;
+}
+
+
+/* Seventh Section */
+
+
+.ProjectLife{
+    background-color: rgb(199, 174, 174);
+}
+
+.LifeImg{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.LifeTittle{
+    text-align: center;
+    font-size: 3em;
+    font-weight: 800;
+    padding: 9px;   
+}
+
+.container {
+    position: relative;  
+}
+
+.mySlides {
+    display: none;
+}
+  
+.cursor {
+    cursor: pointer;
+}
+  
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+  
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+.prev:hover, .next:hover {
+    background-color: rgb(255, 255, 255);
+}
+  
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+  
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+.column {
+    float: left;
+    width: 16%;
+    padding: 5px;
+}
+  
+.demo {
+    opacity: 0.6;
+}
+  
+.active, .demo:hover {
+    opacity: 1;
+}
+
+.mySlides img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.row{
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+
+/* Eighth Section */
+
+
+.Newsletter{
+    background: url('../img/1878506.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 425px;   
+}
+
+.NewsletterTittle{
+    text-align: center;
+    font-size: 3em;
+    font-weight: 800;
+    padding: 10px;
+    color: white;
+}
+
+.SignupForm {
+    display: flex;
+    justify-content: center;
+}
+
+.SignupForm input{
+    padding: 15px 100px;
+}
+
+.SignupForm button{
+    padding: 15px 38px;
+    border: rgb(26, 130, 213);
+    background-color: #ffeb3b;
+    cursor: pointer;
+}
+
+.SignupForm button:hover{
+    border: rgb(147, 21, 219);
+    background-color: rgb(153, 33, 223);
+}
+
+
+/* Ninth Section */
+
+
+.BlogTittle{
+    text-align: center;
+    font-size: 3em;
+    font-weight: 800;
+    padding: 10px
+}
+
+.BlogRow{
+    display: flex;
+}
+
+.BlogContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.BlogContent img{
+    width: 45%;
+}
+
+.BlogContentName{
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 600;
+} 
+
+.BlogContentDate{
+    color: rgb(141,141,141);
+    font-size: 1em;
+}
+
+.BlogContent button{
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background-color: rgb(141,141,141);
+    border: rgb(141,141,141);
+}
+
+.BlogContent button:hover{
+    background-color: rgb(255, 5, 5);
+    border: rgb(255, 5, 5);
+}
+
+
+/* Tenth Section */
+
+
+.ContactUsForm{
+    background-color: rgb(153, 154, 163);
+    height: 705px;
+    width: 100%;
+    margin: 60px 0px;
+    padding: 0px 30px;
+}
+
+.MapLocation{
+    padding: 30px 0px;
+    margin: 30px 0px;
+}
+
+.ContactUs{
+    display: flex;
+}
+
+.ContactTittle{
+    font-size: 3em;
+    font-weight: 800;
+    padding: 0px 20px;
+    margin: 0px 20px;
+    text-align: center;
+}
+
+.FormInput{
+    padding: 0px 20px;
+    margin: 0px 20px;
+}
+
+.FormInputData{
+    padding: 10px 70px;
+    margin: 10px 0px;
+}
+
+.FormInput button{
+    padding: 10px 137px;
+    cursor: pointer;
+}
+
+.FormInput button:hover{
+    background-color: rgb(126, 0, 199);
+    border: rgb(126, 0, 199);
+}
+
+
+/* Eleventh Section */
+
+
+.Footer{
+    display: flex;
+    justify-content: center;
+}
+
+.FooterCart{
+    padding: 10px 15px;
+    margin: 10px 15px;
+    text-align: center;
+}
+
+.FooterTittle{
+    font-size: 1.1em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.IconCloumn{
+    padding: 3px;
+}
+
+.IconCloumn i{
+    padding: 5px;
+}
+
+.IconCloumn a{
+    cursor: pointer;
+    color: black;
+}
